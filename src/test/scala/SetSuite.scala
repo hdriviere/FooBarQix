@@ -12,7 +12,7 @@ class SetSuite extends FunSuite {
       .filter(isDivisibleBy(value, _))
     .flatMap(dict1.get).toList
 
-    val digits: Array[Int] = value.toString.map( (c: Char) => c.asDigit)
+    val digits: Array[Int] = value.toString.toCharArray.map(_.asDigit)
 
 
     val digitPart: Array[String] = if ( divisiblePart.isEmpty && !digits.exists(dict1.contains)){
