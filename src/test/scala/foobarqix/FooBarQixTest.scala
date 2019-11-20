@@ -1,3 +1,5 @@
+package foobarqix
+
 import org.scalatest.FunSuite
 
 class FooBarQixTest extends FunSuite {

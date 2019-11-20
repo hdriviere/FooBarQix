@@ -1,3 +1,5 @@
+package foobarqix
+
 object FooBarQix {
   def isDivisibleBy(value: Int, divisor: Int): Boolean = { value % divisor == 0 }
 
